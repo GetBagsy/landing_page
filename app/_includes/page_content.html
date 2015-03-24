@@ -3,13 +3,13 @@
     <div class="container">
 
         <div class="row">
-            <div class="col-lg-5 col-sm-6">
+            <div class="col-lg-4 col-lg-offset-1 col-sm-6">
                 <hr class="section-heading-spacer">
                 <div class="clearfix"></div>
-                <h2 class="section-heading">Add User to New Subscription</h2>
-
+                <h2 class="section-heading">Developer-friendly!</h2>
+                Here is our super simple SDK!
             </div>
-            <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+            <div class="col-lg-6 col-lg-offset-1 col-sm-6">
                 <div role="tabpanel">
 
                   <!-- Nav tabs -->
@@ -27,23 +27,29 @@
                         <pre>
 import basgy
 
-c = basgy.BasgyClient(api_id="001", api_key="123")
+c = basgy.BasgyClient(api_key='test123')
 standard_sub=c.add_new_subscription(
-    name="Standard",
+    name='Standard',
     price=100,
-    currency="USD")
-standard_sub.add_user(user_ticket_id="123")
+    currency='USD',
+    charge_day=25)
+standard_sub.add_user(user_ticket_id='123')
                         </pre>
                     </p>
                     </div>
-                    <div role="tabpanel" class="tab-pane active" id="curl">
+                    <div role="tabpanel" class="tab-pane" id="curl">
+                        <pre>
+curl https://api.getbagsy.com/v1/customers \
+   -u test123: \
+   -d ticket_id=123 \
+   -d plan=Standard             
+                        </pre>           
                     </div>
                     <div role="tabpanel" class="tab-pane" id="ruby">TBD</div>
                     <div role="tabpanel" class="tab-pane" id="php">TBD</div>
                   </div>
 
                 </div>   
-                <!--<img class="img-responsive" src="img/services/{{ post.img }}" alt="">-->
             </div>
         </div>
 
@@ -51,6 +57,29 @@ standard_sub.add_user(user_ticket_id="123")
     <!-- /.container -->
 
 </div>
+<!-- /.content-section-a -->
+
+<div class="content-section-b">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                <hr class="section-heading-spacer">
+                <div class="clearfix"></div>
+                <h2 class="section-heading">Manager-friendly</h2>
+                Find out what happens to your revenue.
+            </div>
+            <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+              <img class="img-responsive" src="img/services/dog.png" alt="">
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+</div>
+<!-- /.content-section-b -->
 
 <!-- Page Content -->
 {% for post in site.posts reversed %}
