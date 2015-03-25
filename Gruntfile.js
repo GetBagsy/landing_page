@@ -224,8 +224,8 @@ module.exports = function (grunt) {
     buildcontrol: {
       dist: {
         options: {
-          remote: 'git@github.com:GetBagsy/landing_page.git',
-          branch: 'gh-pages',
+          remote: 'git@github.com:zheli/getbagsy.github.io.git',
+          branch: 'master',
           commit: true,
           push: true
         }
