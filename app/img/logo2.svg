@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20" height="36" xmlns="http://www.w3.org/2000/svg">
+
+ <metadata id="metadata2191">image/svg+xml</metadata>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="38" width="22" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <path fill="#ffffff" fill-rule="nonzero" stroke="#000000" stroke-width="1.062992" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" id="path2239" d="m2.049618,11.649898c0,22.852098 0,22.852098 0,22.852098l16.165147,0l0,-22.852098"/>
+   <path fill="#ffffff" stroke="#000000" stroke-width="1.062992" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" d="m13.911731,11.649898a6.031773,0 0 0 1 -9.153883,0" id="path2261"/>
+   <path fill="#ffffff" stroke="#000000" stroke-width="1.161549" stroke-linecap="square" stroke-miterlimit="4" stroke-dashoffset="0" d="m18.214766,11.269027a8.082575,-3.808682 0 1 1 -16.165147,0" id="path2263"/>
+   <path fill="#ffffff" fill-rule="nonzero" stroke="#000000" stroke-width="1.062992" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" id="path2868" d="m10.132194,6.952528c-4.463513,-5.078246 -4.463513,-5.078246 -4.463513,-5.078246c8.927025,0 8.927025,0 8.927025,0c-4.463512,5.078246 -4.463512,5.078246 -4.463512,5.078246"/>
+   <path fill="#ffffff" fill-rule="nonzero" stroke="#000000" stroke-width="1.062992" marker-start="none" marker-mid="none" marker-end="none" stroke-miterlimit="4" stroke-dashoffset="0" id="path2870" d="m10.132194,6.571658c0,-5.07824 0,-5.07824 0,-5.07824"/>
+  </g>
+ </g>
+</svg>
